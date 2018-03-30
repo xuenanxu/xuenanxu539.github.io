@@ -32,6 +32,12 @@
 	padding-bottom: 5%;
 }
 
+.container .row .col-md-6 li{
+	font-family: Lato Light;
+	line-height: 1.5em;
+	font-size: 16px;
+}
+
 
 h1 {
 	font-size: 40px;
