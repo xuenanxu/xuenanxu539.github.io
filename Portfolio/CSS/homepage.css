@@ -1,0 +1,51 @@
+.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		background-color: #FFF;
+		color: #000;
+		padding: 1% 0;
+		font-size: 14px;
+		border: 0;
+		font-family: Lato Light;
+	}
+
+.navbar-brand {
+		float: left;
+		min-height: 55px;
+		padding: 0 15px 5px;
+	}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+		color: #000;
+		background-color: #FFF;
+	}
+
+.navbar-inverse .navbar-nav li a {
+		color: #C3C3C3;
+	}
+
+.nav>li>a:focus, .nav>li>a:hover {
+		color: #999!important;
+	}
+
+.container .row .col-md-6 img {
+	padding-bottom: 5%;
+}
+
+
+h1 {
+	font-size: 40px;
+	font-family: Lato Regular;
+}
+
+h5 {
+	font-size: 18px;
+	font-family: Lato Light;
+	line-height: 1.5em;
+}
+
+p {
+	font-size: 16px;
+	font-family: Lato Light;
+	line-height: 1.5em;
+}
