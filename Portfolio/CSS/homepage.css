@@ -17,7 +17,7 @@
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 		color: #000;
-		background-color: #FFF;
+		background-color: #fff;
 	}
 
 .navbar-inverse .navbar-nav li a {
@@ -30,32 +30,56 @@
 
 .container .row .col-md-6 img {
 	padding-bottom: 5%;
+
 }
 
 .container .row .col-md-6 li{
 	font-family: Lato Light;
 	line-height: 1.5em;
 	font-size: 16px;
+	width: 80%;
+}
+
+.container .row .col-md-6 p{
+	width: 80%;
 }
 
 .container .row img{
 	padding: 5%;
 }
 
+.container .overview, .container .goal {
+	text-align: left;
+	width: 80%;
+}
 footer{
 	text-align: center;
-	font-size: 10px;	
+	font-size: 10px;
+	padding-top: 5%;	
 }
 
 .footer{
 	font-size: 14px;
 }
 
+
+.btn{
+	font-family: Lato Light;
+	margin-top: 2%;
+}
+
+.container img{
+	padding-bottom: 5%;
+
+}
 h1 {
 	font-size: 40px;
 	font-family: Lato Regular;
 }
 
+h3{
+	font-family: Lato Regular ;
+}
 h5 {
 	font-size: 18px;
 	font-family: Lato Light;
