@@ -44,20 +44,22 @@
 	width: 80%;
 }
 
-.container .row img{
-	padding: 5%;
+.container .goal{
+
+	
 }
 
-.container .overview, .container .goal {
+.container .overview{
 	text-align: left;
-	width: 80%;
-}
-footer{
-	text-align: center;
-	font-size: 10px;
-	padding-top: 5%;	
+	padding-left: 8%;
+	width: 90%;
 }
 
+.col-sm-4{
+	padding-right: 22%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
 .footer{
 	font-size: 14px;
 }
@@ -72,6 +74,23 @@ footer{
 	padding-bottom: 5%;
 
 }
+
+.myDesign{
+	padding-left: 20%;
+}
+
+.fa{
+	margin: 5px;
+}
+
+footer{
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5%;	
+}
+
+
+
 h1 {
 	font-size: 40px;
 	font-family: Lato Regular;
