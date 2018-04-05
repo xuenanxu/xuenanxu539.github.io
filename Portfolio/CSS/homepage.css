@@ -46,7 +46,8 @@
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
-     background-color: #fff!important; 
+    background-color: #fff!important;
+    font-family: Lato Regular; 
 }
 .container .overview{
 	text-align: left;
