@@ -6,7 +6,7 @@
 		padding: 1% 0;
 		font-size: 14px;
 		border: 0;
-		font-family: Lato Light;
+		font-family: Lato Light, Roboto;
 		position: top;	
 	}
 
@@ -30,7 +30,7 @@
 }
 
 .container .row .col-md-6 li{
-	font-family: Lato Light;
+	font-family: Lato Light, Roboto;
 	line-height: 1.5em;
 	font-size: 16px;
 	width: 80%;
@@ -78,16 +78,17 @@
 
 }
 
-/*.myDesign{
-	padding-left: 20%;
-	padding-bottom: 5%;
-}
-*/
+
 .myIntroduction{
 	padding-left:10%;
 	padding-right:10%;
 	text-align: left;
 
+}
+
+.designProcess img{
+	padding-left: 10%;
+	padding-top: 5%;
 }
 
 .fa{
@@ -96,9 +97,27 @@
 }
 
 .contact{
-	font-family: Lato Regular;
+	font-family: Lato Regular, Roboto;
 	text-align:center;
 	padding-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+@media screen and (max-width: 992px) {
+  .column{
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
 }
 
 footer{
@@ -110,21 +129,21 @@ footer{
 
 h1 {
 	font-size: 40px;
-	font-family: Lato Regular;
+	font-family: Lato Regular, Roboto;
 }
 
 h3{
-	font-family: Lato Regular ;
+	font-family: Lato Regular, Roboto ;
 }
 h5 {
 	font-size: 18px;
-	font-family: Lato Light;
+	font-family: Lato Light, Roboto;
 	line-height: 1.5em;
 
 }
 
 p {
 	font-size: 16px;
-	font-family: Lato Light;
+	font-family: Lato Light, Roboto;
 	line-height: 1.5em;
 }
