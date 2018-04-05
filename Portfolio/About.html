@@ -4,32 +4,37 @@
 	<title> Xuenan Xu | About </title>
 	<meta charset ="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="CSS/homepage.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3/3/7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 </head>
 
 <body>
 	<header>
 		
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
+		<nav class="navbar navbar-default">
+		<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="Portfolio_Homepage.html"> <img src="images/Logo.png" alt ="Logo" width = "150"> </a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<a class="navbar-brand" href="Portfolio_Homepage.html"> <img src="images/Logo.png" alt ="Logo" width = "150"> </a>
 				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
+				
+				<div id="myNavbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="Portfolio_Homepage.html">PORTFOLIO</a></li>
 						<li class="active"><a href="#">ABOUT</a></li>
 						<li><a href="Photography.html">PHOTOGRAPHY</a></li>
+						<li><a href="Document/Resume_Xuenan Xu.pdf" target="_blank">RESUME</a></li>
 					</ul>
 				</div>
 			</div>
@@ -37,13 +42,13 @@
 	</header>
 
 		<div class="container text-center">
-			<h1>Hi! I'm Xuenan Xu</h1>
-			<h5> UX Designer & Photographer</h5>
-			<img src="images/About.jpg" alt="About" width="80%">
+			<div class="about">
+				<h1>Hi! I'm Xuenan Xu</h1>
+				<h5> UX Designer & Photographer</h5>
+				<img src="images/About.png" alt="About" width="30%">
 		</div>
 
-		<div class="container">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-6">
 					<div class="myDesign">
 						<p>My Design Philosophy</p>
@@ -52,16 +57,24 @@
 							<li> Small changes make big differences </li>
 							<li> User-centered </li>
 						</ul>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<p> Hi! I'm Xuenan Xu, a user experience designer at University of Michigan. I've also been an amateur photographer for 4+ years. My experience of photography makes me a good observer and experiencer in life, and I can spot things that are easily ignored by people. Being a user experience designer, I like to think, analyze and solve problems from the perspective of users. </p>
-					<p> Aside from work, I'm also a cinephile and colaholic. </p>
-					<p>I'm currently looking for a UX internship starting from May 2018 or later. Please feel free to contact me or check my social media for more of my works.</p>
-					<button type="button" class="btn btn-default"> CONTACT </button>
-									</div>
-			</div>
-		</div>		
+					</div> -->
+				<!-- </div> -->
+				<!-- <div class="col-md-6"> -->
+		<div class="myIntroduction">
+
+			<p> Hi! I'm Xuenan Xu, a <strong>user experience designer </strong> at University of Michigan. I've also been an amateur <strong> photographer </strong> for 4+ years. My experience of photography makes me a good observer and experiencer in life, and I can spot things that are easily ignored by people. Being a user experience designer, I like to think, analyze and solve problems from the perspective of users. </p>
+			<p> Aside from work, I'm also a cinephile and colaholic. </p>
+			<p>I'm currently looking for a UX internship starting from May 2018 or later. Please feel free to contact me or check my social media for more of my works.</p>
+			<div class="contact">
+				<a id="contact" href="mailto:xuenanxu@umich.edu">CONTACT</a>
+			</div>	
+
+				<!-- </div> -->
+			<!-- </div>
+		</div> -->		
+
+
+
 </body>
 <!-- Social Media icons -->
 <footer>
