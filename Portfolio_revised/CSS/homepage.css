@@ -1,0 +1,157 @@
+.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		background-color: #fff;
+		color: #000;
+		padding: 1% 0;
+		font-size: 14px;
+		border: 0;
+		font-family: Lato Light, Roboto;
+		position: top;	
+	}
+
+.navbar-brand {
+		float: left;
+		min-height: 55px;
+		padding: 0 15px 5px;
+	}
+
+.navbar-default .navbar-nav li a {
+		color: #C3C3C3;
+	}
+
+.nav>li>a:focus, .nav>li>a:hover {
+		color: #999!important;
+	}
+
+.container .row .col-md-6 img {
+	padding-bottom: 5%;
+
+}
+
+.container .row .col-md-6 li{
+	font-family: Lato Light, Roboto;
+	line-height: 1.5em;
+	font-size: 16px;
+	width: 80%;
+}
+
+.container .row .col-md-6 p{
+	width: 80%;
+}
+
+.container .goal{
+	
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #fff!important;
+    font-family: Lato Regular; 
+}
+.container .overview{
+	text-align: left;
+	padding-left: 12%;
+	width: 80%;
+}
+
+.col-sm-4{
+	padding-right: 22%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.footer{
+	font-size: 14px;
+}
+
+.container img{
+	padding-bottom: 5%;
+
+}
+
+
+.myIntroduction{
+	padding-left:10%;
+	padding-right:10%;
+	text-align: left;
+
+}
+
+
+.designProcess img{
+	padding-left: 12%;
+	padding-top: 5%;
+	width: 90%;
+}
+
+.fa{
+	margin: 2px;
+	color: #999;
+}
+
+.contact{
+	font-family: Lato Regular, Roboto;
+	text-align:center;
+	padding-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.goodbuy{
+	background-image: url("../images/582_head.jpg");
+	background-size: cover;
+	margin:0 auto;
+	width: 60vw;
+	height: 40vw;
+	background-repeat: no-repeat;
+}
+
+.about img{
+	width: 40%;
+
+}
+@media screen and (max-width: 992px) {
+  .column{
+    width: 50%;
+    padding-left: 5%;
+  }
+}
+
+/* On screens that are 768px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    padding-left: 5%;
+  }
+}
+
+footer{
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5%;
+}
+
+
+h1 {
+	font-size: 40px;
+	font-family: Lato Regular, Roboto;
+}
+
+h3{
+	font-family: Lato Regular, Roboto ;
+}
+h5 {
+	font-size: 18px;
+	font-family: Lato Light, Roboto;
+	line-height: 1.5em;
+
+}
+
+p {
+	font-size: 16px;
+	font-family: Lato Light, Roboto;
+	line-height: 1.5em;
+}
